@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Airbus Replica</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your stylesheet -->
+    <script defer src="script.js"></script> <!-- Link to your JavaScript file -->
+</head>
+<body>
+
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/airbus-logo.png" alt="Airbus Logo">
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="innovation.html">Innovation</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Form Section -->
+    <section class="contact-section">
+        <h2>Contact Us</h2>
+        <form id="contactForm" class="contact-form"> <!-- Added class for styling -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="6" required></textarea><br>
+
+            <button type="submit" class="submit-btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Airbus Replica. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
